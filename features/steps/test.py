@@ -10,5 +10,5 @@ def step_impl(context):
 
 @then("the dealer gives itself two cards")
 def step_impl(context):
-    card = 2
+    card = 1
     assert card==2, "Number of cards are not two"
